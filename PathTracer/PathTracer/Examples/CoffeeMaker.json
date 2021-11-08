@@ -1,0 +1,199 @@
+{
+    "Version": 1,
+    "Material": {
+        "PlasticOrange": {
+            "Diffuse": "(1.0 0.37 0.013)",
+            "Roughness": 0.001
+        },
+        "PlasticBlack": {
+            "Diffuse": "(0.00063 0.00063 0.00063)",
+            "Roughness": 0.1
+        },
+        "Glass": {
+            "Diffuse": "(1.0 1.0 1.0)",
+            "IoR": 1.45,
+            "type": "Specular"
+        },
+        "Metal": {
+            "Diffuse": "(1.0 1.0 1.0)",
+            "Roughness": 0.01,
+            "Metallic": 1.0
+        },
+        "Floor": {
+            "Diffuse": "(0.578 0.578 0.578)",
+            "Roughness": 0.01
+        }
+    },
+    "AcceleratedModel": [
+        {
+            "Path": "./CoffeeMaker/Mesh000.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticOrange"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh001.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticOrange"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh002.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Metal"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh003.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh004.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Floor"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh005.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh006.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticOrange"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh007.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh008.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh009.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticOrange"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh010.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Glass"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh011.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticOrange"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh012.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh013.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh014.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh015.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Metal"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh016.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticOrange"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh017.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh018.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        },
+        {
+            "Path": "./CoffeeMaker/Mesh019.stl",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "PlasticBlack"
+        }
+    ],
+    "Lights": [
+        {
+            "Position": "( 0.0, 10.0, 0.0 )",
+            "Radius": 1.0,
+            "Emissive": "( 500.0, 500.0, 100.0, 500.0 )"
+        }
+    ],
+    "SceneAcceleration": "SAH",
+    "Skybox": "./Resources/Skymap.dds"
+}
+

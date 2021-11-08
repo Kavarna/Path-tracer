@@ -1,0 +1,99 @@
+{
+    "Version": 1,
+    "Material": {
+        "White": {
+            "Diffuse": "(0.725 0.71 0.68)"
+        },
+        "Red": {
+            "Diffuse": "(0.63 0.065 0.05)"
+        },
+        "Green": {
+            "Diffuse": "(0.0 0.8 0.0)"
+        },
+        "Yellow": {
+            "Diffuse": "(0.8 0.8 0.0)"
+        },
+        "Glass": {
+            "Diffuse": "(0.9 0.9 0.9)",
+            "Material Type": "Specular",
+            "IoR": 1.35,
+            "Metallic":  0.9
+        }
+    },
+    "AcceleratedModel": [
+        {
+            "Path": "./CornellBox2/back_wall.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Yellow"
+        },
+        {
+            "Path": "./CornellBox2/ceiling.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "White"
+        },
+        {
+            "Path": "./CornellBox2/floor.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "White"
+        },
+        {
+            "Path": "./CornellBox2/left_wall.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Red"
+        },
+        {
+            "Path": "./CornellBox2/right_wall.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Green"
+        },
+        {
+            "Path": "./CornellBox2/short_box.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "White"
+        },
+        {
+            "Path": "./CornellBox2/tall_box.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "White"
+        },
+        {
+            "Path": "./CornellBox2/glass_back.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Glass"
+        }
+    ],
+    "Lights": [
+        {
+            "Position": "( 0.0, 4.0, 0.0 )",
+            "Radius": 0.1,
+            "Emissive": "( 100.0, 100.0, 100.0, 1.0 )"
+        }
+    ],
+    "SceneAcceleration": "SAH",
+    "Skybox": "./CornellBox2/Skymap.dds"
+}
+

@@ -1,0 +1,39 @@
+{
+    "Version": 1,
+    "Material": {
+        "Wood": {
+            "Diffuse Texture": "./toyplane/wood.jpg",
+            "Diffuse": "(0.1 0.1 0.1)",
+            "Roughness": 1.0,
+            "Metallic": 0.1
+        }
+    },
+    "AcceleratedModel": [
+        {
+            "Path": "./toyplane/toyplane.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Wood"
+        },
+        {
+            "Path": "./toyplane/wall.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Wood"
+        }
+    ],
+    "Lights": [
+        {
+            "Position": "( 4.0, 3.0, -10.0 )",
+            "Radius": 0.01,
+            "Emissive": "( 1000.0, 1000.0, 1000.0, 1.0 )"
+        }
+    ],
+    "SceneAcceleration": "SAH",
+    "Skybox": "./CornellBox2/Skymap.dds"
+}
+

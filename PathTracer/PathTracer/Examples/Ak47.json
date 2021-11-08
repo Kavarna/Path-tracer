@@ -1,0 +1,44 @@
+{
+    "Version": 1,
+    "Material": {
+        "Black": {
+            "Diffuse": "(0.1 0.1 0.1)",
+            "Roughness": 0.01,
+            "Metallic": 0.7
+        },
+        "Ground": {
+            "Diffuse Texture": "./Ak47/concrete2.jpg",
+            "Diffuse": "(0.1 0.1 0.1)",
+            "Roughness": 1.0,
+            "Metallic": 0.1
+        }
+    },
+    "AcceleratedModel": [
+        {
+            "Path": "./Ak47/ak47.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Black"
+        },
+        {
+            "Path": "./Ak47/Plane.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "Ground"
+        }
+    ],
+    "Lights": [
+        {
+            "Position": "( -10.0, 5.0, 0.0 )",
+            "Radius": 0.001,
+            "Emissive": "( 300.0, 280.0, 250.0, 1.0 )"
+        }
+    ],
+    "SceneAcceleration": "SAH",
+    "Skybox": "./CornellBox2/Skymap.dds"
+}
+

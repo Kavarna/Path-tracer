@@ -1,0 +1,54 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# VS hidden folder
+*.vs*
+
+# Various outputs
+*.idb
+*.log
+*.tlog
+*.pdb
+*.exe*
+*.ilk
+
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+/PathTracer/PathTracer/Debug
+/PathTracer/PathTracer/x64/Debug
+/PathTracer/x64/Debug/Shaders
+/PathTracer/PathTracer/Shaders
+/PathTracer/x64/Debug
+/PathTracer/PathTracer/imgui.ini
+/PathTracer/PathTracer/config.json
+/PathTracer/x64/Release
+/PathTracer/PathTracer/x64/Release
+/PathTracer/PathTracer/OblivionLogs.txt

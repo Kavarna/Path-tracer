@@ -1,0 +1,26 @@
+{
+    "Version": 1,
+    "Material": {
+        "White": {
+            "Diffuse": "(0.8 0.8 0.8)",
+            "Roughness": 0.1,
+            "Metallic": 1.0
+        }
+    },
+    "AcceleratedModel": [
+        {
+            "Path": "./Suzanne/Suzanne.obj",
+            "SplitMethod": "SAH",
+            "MaxPrimitivesInNode": 10,
+            "WireframeRender": false,
+            "BvhRender": false,
+            "Material": "White"
+        }
+    ],
+    "Lights": [
+        
+    ],
+    "SceneAcceleration": "SAH",
+    "Skybox": "./Resources/Skymap.dds"
+}
+
